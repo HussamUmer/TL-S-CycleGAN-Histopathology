@@ -52,9 +52,9 @@ We use the **BreakHis Breast Cancer Histopathology Dataset**:
 ### **Training Notebooks**
 | Model | Colab Link |
 |-------|------------|
-| Simple CycleGAN (Jun-Yan Zhu et al., 2017) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/repo/blob/main/training_simple_cyclegan.ipynb) |
-| TL-S-CycleGAN (ResNet-50) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/repo/blob/main/training_resnet_50_cyclegan.ipynb) |
-| TL-S-CycleGAN (VGG-16) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/repo/blob/main/training_vgg_16_model.ipynb) |
+| Simple CycleGAN (Jun-Yan Zhu et al., 2017) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/TL-S-CycleGAN-Histopathology/blob/main/training_simple_cyclegan.ipynb) |
+| TL-S-CycleGAN (ResNet-50) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/TL-S-CycleGAN-Histopathology/blob/main/training_resnet_50_cyclegan.ipynb) |
+| TL-S-CycleGAN (VGG-16) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/TL-S-CycleGAN-Histopathology/blob/main/training_vgg_16_model.ipynb) |
 
 ---
 
