@@ -83,6 +83,14 @@ We use the **BreakHis Breast Cancer Histopathology Dataset**:
 
 ---
 
+## 📽️ Project Presentation
+For a quick overview of the project, models, methodology, and results, check out the presentation below:
+
+- [View PDF Presentation](Presentation/FYP_Presentation.pdf)
+- [Download PPTX Version](Presentation/FYP_Presentation.pptx)
+
+---
+
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
