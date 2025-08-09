@@ -81,10 +81,10 @@ Below are example image translations produced by the three models for both direc
 
 ### 🔹 Simple CycleGAN (Jun-Yan Zhu et al., 2017)
 **Benign → Malignant**
-![](Generated%20Images/Simple_Cyclegan/benign_to_malignant/example1.png)
+![](Generated%20Images/Simple_Cyclegan/benign_to_malignant/0.png)
 
 **Malignant → Benign**
-![](Generated%20Images/Simple_Cyclegan/malignant_to_benign/example1.png)
+![](Generated%20Images/Simple_Cyclegan/malignant_to_benign/0.png)
 
 ---
 
@@ -99,10 +99,10 @@ Below are example image translations produced by the three models for both direc
 
 ### 🔹 TL-S-CycleGAN (VGG-16)
 **Benign → Malignant**
-![](Generated%20Images/VGG_16_Cyclegan/benign_to_malignant/example1.png)
+![](Generated%20Images/VGG_16_Cyclegan/benign_to_malignant/0.png)
 
 **Malignant → Benign**
-![](Generated%20Images/VGG_16_Cyclegan/malignant_to_benign/example1.png)
+![](Generated%20Images/VGG_16_Cyclegan/malignant_to_benign/0.png)
 
 
 ---
