@@ -86,7 +86,7 @@ We use the **BreakHis Breast Cancer Histopathology Dataset**:
 ## 📽️ Project Presentation
 For a quick overview of the project, models, methodology, and results, check out the presentation below:
 
-- [View PDF Presentation](Presentation/FYP_Presentation.pdf)
+- [View PDF Presentation](Presentation/FYP_research_Hussam.pdf)
 - [Download PPTX Version](Presentation/FYP_Presentation.pptx)
 
 ---
