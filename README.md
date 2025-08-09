@@ -83,6 +83,13 @@ We use the **BreakHis Breast Cancer Histopathology Dataset**:
 
 ---
 
-## 📜 Citation
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**CycleGAN Original Paper:**
+---
+
+> **Note:**  
+> Due to large `.ipynb` file sizes, outputs have been cleared from **training notebooks** in this repository.  
+> If you require access to the original notebooks with full outputs, please email me at **hussamumer28092000@gmail.com** and I will provide you with a Colab link.  
+> All notebooks are stored directly in the repository root for easier access via Google Colab.
+
