@@ -99,7 +99,7 @@ Below are example image translations produced by the three models for both direc
 
 ### 🔹 TL-S-CycleGAN (VGG-16)
 **Benign → Malignant**
-![](Generated%20Images/VGG_16_Cyclegan/benign_to_malignant/0.png)
+![](Generated%20Images/VGG_16_Cyclegan/benign_to_malignant/00.png)
 
 **Malignant → Benign**
 ![](Generated%20Images/VGG_16_Cyclegan/malignant_to_benign/0.png)
