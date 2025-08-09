@@ -75,6 +75,14 @@ We use the **BreakHis Breast Cancer Histopathology Dataset**:
 
 ---
 
+## 📊 Summary of Results
+
+- **Image Quality:** TL-S-CycleGAN (VGG-16) → Best SSIM & PSNR, most realistic outputs.  
+- **Classification:** TL-S-CycleGAN (ResNet-50) → Highest accuracy & F1-score.  
+- **Segmentation:** TL-S-CycleGAN (VGG-16) → Best IoU & per-class accuracy.  
+
+---
+
 ## 📊 Sample Generated Images
 
 Below are example image translations produced by the three models for both directions: **Benign → Malignant** and **Malignant → Benign**.
@@ -103,15 +111,6 @@ Below are example image translations produced by the three models for both direc
 
 **Malignant → Benign**
 ![](Generated%20Images/VGG_16_Cyclegan/malignant_to_benign/0.png)
-
-
----
-
-## 📊 Summary of Results
-
-- **Image Quality:** TL-S-CycleGAN (VGG-16) → Best SSIM & PSNR, most realistic outputs.  
-- **Classification:** TL-S-CycleGAN (ResNet-50) → Highest accuracy & F1-score.  
-- **Segmentation:** TL-S-CycleGAN (VGG-16) → Best IoU & per-class accuracy.  
 
 ---
 
