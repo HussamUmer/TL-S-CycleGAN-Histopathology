@@ -90,7 +90,7 @@ Below are example image translations produced by the three models for both direc
 
 ### 🔹 TL-S-CycleGAN (ResNet-50)
 **Benign → Malignant**
-![](Generated Images/Resnet_50_Cyclegan/benign_to_malignant/0.png)
+![](Generated%20Images/Resnet_50_Cyclegan/benign_to_malignant/0.png)
 
 **Malignant → Benign**
 ![](Generated%20Images/Resnet_50_Cyclegan/malignant_to_benign/example1.png)
