@@ -70,8 +70,8 @@ We use the **BreakHis Breast Cancer Histopathology Dataset**:
 ### **Metrics & Visualizations**
 | File | Description | Colab Link |
 |------|-------------|------------|
-| `classification_metrics_fcn_visuals.ipynb` | Accuracy, F1-score, precision, recall + FCN visuals for all CycleGAN variants | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/username/repo/blob/main/classification_metrics_fcn_visuals.ipynb) |
-| `image_quality_metrics.ipynb` | SSIM, PSNR, MSE calculations + visual comparisons | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/username/repo/blob/main/image_quality_metrics.ipynb) |
+| `Classification_Performance_and_FCN_Metrics_Visuals.ipynb` | Accuracy, F1-score, precision, recall + FCN visuals for all CycleGAN variants | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/TL-S-CycleGAN-Histopathology/blob/main/Evaluation%20Metrics%20and%20Visuals/Classification_Performance_and_FCM_metrics_Visuals.ipynb) |
+| `Evaluation_Metrics_Image_Quality.ipynb` | SSIM, PSNR, MSE calculations + visual comparisons | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HussamUmer/TL-S-CycleGAN-Histopathology/blob/main/Evaluation%20Metrics%20and%20Visuals/Evaluation_Metrics_Image_Quality.ipynb) |
 
 ---
 
