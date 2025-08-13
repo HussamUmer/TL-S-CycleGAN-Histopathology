@@ -77,9 +77,84 @@ We use the **BreakHis Breast Cancer Histopathology Dataset**:
 
 ## 📊 Summary of Results
 
-- **Image Quality:** TL-S-CycleGAN (VGG-16) → Best SSIM & PSNR, most realistic outputs.  
-- **Classification:** TL-S-CycleGAN (ResNet-50) → Highest accuracy & F1-score.  
-- **Segmentation:** TL-S-CycleGAN (VGG-16) → Best IoU & per-class accuracy.  
+Below is a detailed breakdown of our experimental results from the thesis, comparing **Simple CycleGAN**, **TL-S-CycleGAN (ResNet-50)**, and **TL-S-CycleGAN (VGG-16)** across three evaluation categories: **Classification Performance**, **Segmentation Performance (FCN)**, and **Synthetic Image Quality**.
+
+---
+
+### 1️⃣ Classification Performance
+
+We evaluated the models on the **BreakHis dataset** for benign vs. malignant tumor classification after GAN-based data augmentation.  
+The TL-S-CycleGAN with **ResNet-50 discriminator** achieved the **highest accuracy (95%)** and **F1-score (0.95)**, showing its strength in extracting class-relevant features.  
+The **Simple CycleGAN** achieved moderate results, while the **VGG-16 variant**, despite perfect recall, struggled with class balance.
+
+
+#### 📋 Classification Performance Table
+
+| Model                     | Accuracy | Precision | Recall | F1-Score |
+|---------------------------|----------|-----------|--------|----------|
+| Simple CycleGAN           | 0.7000   | 1.0000    | 0.4000 | 0.57     |
+| TL-S-CycleGAN (VGG-16)    | 0.5000   | 0.5000    | 1.0000 | 0.67     |
+| TL-S-CycleGAN (ResNet-50) | **0.9500** | 0.9036    | 1.0000 | **0.95** |
+
+#### 📈 Classification Performance Figure
+*(Place your classification performance bar chart here)*  
+`![Classification Performance](path/to/classification_performance_figure.png)`
+
+---
+
+### 2️⃣ Segmentation Performance (FCN Metrics)
+
+We also measured segmentation-like metrics using a **Fully Convolutional Network (FCN)** approach on GAN-generated images to assess spatial accuracy of tumor localization.  
+The **VGG-16 variant** performed best overall, achieving the **highest IoU (0.6787)** and **per-class accuracy (0.8374)**, making it the most spatially precise model.  
+The **Simple CycleGAN** scored high on per-pixel accuracy but lagged in IoU, while the **ResNet-50 variant** traded off segmentation accuracy for classification performance.
+
+
+#### 📋 Segmentation Performance Table
+
+| Model                     | IoU     | Pixel Accuracy | Per-Class Accuracy |
+|---------------------------|---------|----------------|--------------------|
+| Simple CycleGAN           | 0.3091  | 0.9426         | 0.4653             |
+| TL-S-CycleGAN (VGG-16)    | **0.6787** | **0.9547**     | **0.8374**         |
+| TL-S-CycleGAN (ResNet-50) | 0.2603  | 0.8962         | 0.4578             |
+
+#### 📈 Segmentation Performance Figure
+*(Place your FCN metrics bar chart here)*  
+`![Segmentation Performance](path/to/fcn_performance_figure.png)`
+
+---
+
+### 3️⃣ Synthetic Image Quality
+
+Image realism was evaluated using two measures: **average image quality score** (0–5 human-rated scale) and **real/fake detection accuracy** (how accurately human evaluators could identify authenticity).  
+The **TL-S-CycleGAN (VGG-16)** variant achieved the highest results, with an average quality score of **4.20/5** and a detection accuracy of **95%**.  
+Remarkably, some VGG-16 generated images were rated as **more realistic than actual real images**, which had a quality score of **3.90** and a detection accuracy of **90%**.  
+The **Simple CycleGAN** scored moderately (**3.51/5**, 80% detection accuracy), while the **ResNet-50** variant, despite excelling in classification, had the lowest visual realism scores (**2.85/5**, 50% detection accuracy).
+
+
+
+#### 📋 Synthetic Image Quality Table
+
+| Model                  | Avg. Image Quality (0–5) | Real/Fake Detection Accuracy |
+|------------------------|--------------------------|------------------------------|
+| Simple CycleGAN        | 3.51                     | 0.80                         |
+| TL-S-CycleGAN (VGG-16) | **4.20**                  | **0.95**                     |
+| TL-S-CycleGAN (ResNet-50) | 2.85                     | 0.50                         |
+| Real Images            | 3.90                     | 0.90                         |
+
+#### 📈 Synthetic Image Quality Figures
+*(Place your SSIM comparison plot here)*  
+`![SSIM Comparison](path/to/ssim_comparison.png)`  
+
+*(Place your PSNR comparison plot here)*  
+`![PSNR Comparison](path/to/psnr_comparison.png)`
+
+---
+
+💡 **Overall Takeaway:**  
+- **ResNet-50** = Best **classification** performance  
+- **VGG-16** = Best **image quality** and **segmentation accuracy**  
+- **Simple CycleGAN** = Decent baseline, but surpassed by TL-S-CycleGAN variants
+
 
 ---
 
