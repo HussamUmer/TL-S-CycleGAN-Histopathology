@@ -96,9 +96,8 @@ The **Simple CycleGAN** achieved moderate results, while the **VGG-16 variant**,
 | TL-S-CycleGAN (VGG-16)    | 0.5000   | 0.5000    | 1.0000 | 0.67     |
 | TL-S-CycleGAN (ResNet-50) | **0.9500** | 0.9036    | 1.0000 | **0.95** |
 
-#### 📈 Classification Performance Figure
-*(Place your classification performance bar chart here)*  
-![Classification Performance](Graphs%20and%20Visualization/Average%20Image%20Quality.png)
+#### 📈 Classification Performance Figure 
+![Classification Performance](Graphs%20and%20Visualization/Tumor%20Classification.png)
 
 ---
 
@@ -118,8 +117,7 @@ The **Simple CycleGAN** scored high on per-pixel accuracy but lagged in IoU, whi
 | TL-S-CycleGAN (ResNet-50) | 0.2603  | 0.8962         | 0.4578             |
 
 #### 📈 Segmentation Performance Figure
-*(Place your FCN metrics bar chart here)*  
-`![Segmentation Performance](path/to/fcn_performance_figure.png)`
+![Segmentation Performance](Graphs%20and%20Visualization/FCN%20Metrics.png)
 
 ---
 
@@ -142,11 +140,9 @@ The **Simple CycleGAN** scored moderately (**3.51/5**, 80% detection accuracy), 
 | Real Images            | 3.90                     | 0.90                         |
 
 #### 📈 Synthetic Image Quality Figures
-*(Place your SSIM comparison plot here)*  
-`![SSIM Comparison](path/to/ssim_comparison.png)`  
+![Average Image Quality](Graphs%20and%20Visualization/Average%20Image%20Quality.png)
 
-*(Place your PSNR comparison plot here)*  
-`![PSNR Comparison](path/to/psnr_comparison.png)`
+![Real/Fake %](Graphs%20and%20Visualization/RealFake.png)
 
 ---
 
