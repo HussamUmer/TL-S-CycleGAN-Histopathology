@@ -98,7 +98,7 @@ The **Simple CycleGAN** achieved moderate results, while the **VGG-16 variant**,
 
 #### 📈 Classification Performance Figure
 *(Place your classification performance bar chart here)*  
-`![Graphs%20an%20Visualization/Average%20Image%20Quality.png)`
+![Classification Performance](Graphs%20and%20Visualization/Average%20Image%20Quality.png)
 
 ---
 
